@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React with mandy
+          Learn React with mandy after 1st commit
         </a>
       </header>
     </div>
