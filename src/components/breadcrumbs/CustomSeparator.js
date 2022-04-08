@@ -6,19 +6,20 @@ import Stack from '@mui/material/Stack';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 
-export default function CustomSeparator() {
-
+export default function CustomSeparator(props) {
   function handleClick() {
     console.info('You clicked a breadcrumb.');
   }
-  const breadcrumbsValue = [
+  let breadcrumbsValue = [
     <Link underline="hover" key="1" color="inherit" href="/" onClick={handleClick}>
-      MUI
+      Home
     </Link>,
-    <Typography key="3" color="text.primary">
-      Breadcrumb
-    </Typography>,
   ];
+  if(props.vehicleName){
+    breadcrumbsValue = [...breadcrumbsValue , <Typography key="3" color="text.primary">
+    {props.vehicleName}
+  </Typography>]
+  }
 
   return (
     <Stack spacing={10}>

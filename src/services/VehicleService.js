@@ -1,16 +1,17 @@
 import http from "../http-common";
+import listjson from "../json/List.json";
 
 const getAll = () => {
-   return http.get("/b/E862");
+   return http.get("/b/Y5DK");
 };
 
-const get = paramsData => {
-  return http.get(`/b/DN2D?${paramsData}`);
+const getList = () => {
+  return listjson;
 };
 
 const VehicleService = {
   getAll,
-  get,
+  getList,
 };
 
 export default VehicleService;
