@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./App.scss";
+import SideBar from "./components/SideBar/Sidebar";
+import VehiclesPage from "./pages/VehiclesPage";
+import DashboardPage from "./pages/DashboardPage";
+import Header from "./components/breadcrumbs/CustomSeparator"
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with mandy after 1st commit
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div  className="container-fluid">
+      <div class="row">
+            <div className= {"sidebarView "}><SideBar />
+            </div>
+            <div className="col p-0">
+            <div className="mainLayout">
+            <div className="mt-1 mb-4"><Header /></div>
+              <Switch>
+                <Route  path={"/VehiclesPage"} component={VehiclesPage} />
+                <Route path={"/"} component={DashboardPage} exact/>
+              </Switch>
+            </div>
+            </div>
+        </div>    
+     
+      </div>
+    </Router>
   );
 }
 

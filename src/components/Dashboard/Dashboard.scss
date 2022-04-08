@@ -1,0 +1,23 @@
+@import '../../scss/variable.scss';
+
+.dashboard .card-body{
+    padding:1em;
+    background-color:$secondary-white;
+   .card-title{
+       font-size:12px;
+       font-weight: bold;
+       color:$grey-color-dark-3;
+   }
+   .card-text{
+    font-size:14px;
+    color:$grey-color-dark-3;
+   }
+}
+.dashboard .card-body-text{
+    font-size:14px;
+    color:$grey-color-dark-3;
+}
+.dashboard .listGroupCls{
+    height:330px;
+    //overflow-y: scroll;
+}

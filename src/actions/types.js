@@ -1,0 +1,1 @@
+export const VIEW_ALL_VEHICLES = "VIEW_ALL_VEHICLES";
