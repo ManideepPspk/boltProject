@@ -3,7 +3,6 @@ import React,{useEffect} from 'react';
 import {useHistory} from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
 import {retrieveAllVehiclesList} from '../../actions/VehiclesActions';
-
 import './Sidebar.scss';
 
 
@@ -20,8 +19,8 @@ function SideBar(props) {
   const localdata = list && list.map((ele,idx)=>{
     if(idx <=2){
     return(
-      <li className="nav-item">
-              <span className="nav-link text-truncate d-none d-sm-inline" onClick={()=>{props.setVehicleName(ele); history.push({pathname:'/VehiclesPage', state:{name:ele} })}}> {ele} </span>
+      <li className="nav-item" key={ele.name}>
+              <span className="nav-link text-truncate d-none d-sm-inline" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </span>
       </li>
     )}
       return '';
@@ -33,7 +32,7 @@ function SideBar(props) {
       </div>
       <ul>
         { 
-          <li className="nav-item">
+          <li className="nav-item" key='1stplace'>
               <a className="nav-link text-truncate" href="/"><span className="d-none d-sm-inline">Dashboard</span></a>
           </li>
         }

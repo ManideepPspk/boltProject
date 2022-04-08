@@ -14,7 +14,7 @@ function App(props) {
   return (
     <Router>
       <div  className="container-fluid">
-      <div class="row">
+      <div className="row">
             <div className= {"sidebarView "}><SideBar  vehicleName={vehicleName} setVehicleName = {setVehicleName}/>
             </div>
             <div className="col p-0">

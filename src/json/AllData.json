@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "vehicle_name": "Vehicle 1",
+        "elevation": 200,
+        "temperature": 45,
+        "locked": true,
+        "battery": 75.6,
+        "throttle": true,
+        "controller": true,
+        "motor": true,
+        "overload": true,
+        "overcurrent": true,
+        "recent_trips": []
+    },
+    {
+        "id": 2,
+        "vehicle_name": "Vehicle 2",
+        "elevation": 400,
+        "temperature": 55,
+        "locked": true,
+        "battery": 35.6,
+        "throttle": false,
+        "controller": true,
+        "motor": false,
+        "overload": true,
+        "overcurrent": true,
+        "recent_trips": []
+    },
+    {
+        "id": 3,
+        "vehicle_name": "Vehicle 3",
+        "elevation": 100,
+        "temperature": 25,
+        "locked": false,
+        "battery": 95.6,
+        "throttle": true,
+        "controller": true,
+        "motor": true,
+        "overload": false,
+        "overcurrent": false,
+        "recent_trips": []
+    },
+    {
+        "id": 4,
+        "vehicle_name": "Vehicle 4",
+        "elevation": 200,
+        "temperature": 45,
+        "locked": true,
+        "battery": 75.6,
+        "throttle": true,
+        "controller": true,
+        "motor": true,
+        "overload": true,
+        "overcurrent": true,
+        "recent_trips": []
+    },
+    {
+        "id": 5,
+        "vehicle_name": "Vehicle 5",
+        "elevation": 200,
+        "temperature": 45,
+        "locked": true,
+        "battery": 75.6,
+        "throttle": true,
+        "controller": true,
+        "motor": true,
+        "overload": true,
+        "overcurrent": true,
+        "recent_trips": []
+    }
+]
