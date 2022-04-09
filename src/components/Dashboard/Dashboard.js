@@ -10,27 +10,16 @@ import './Dashboard.scss';
 function Dashboard(props) {
      console.log(props)
      return(
-        <Row  className="mt-2 mr-2 ml-2 dashboard">
-            <Col sm={4}>
+        <Row  className="mt-2 mr-2 ml-2">
+            <Col sm={11}>
              <Card className="w-100 listGroupCls">
                     <Card.Body>
-                        <Card.Title>Channel Summary</Card.Title>
                         <Card.Text className="card-body">
-                            <span className="card-body-text">Blocked</span>
+                            <span className="card-body-text">Welcome to Dashboard. Please select a vehicle to see the statistics.</span>
                         </Card.Text>
                     </Card.Body>
              </Card>
             </Col>
-         
-            <Col sm={8}>
-            <Card className="w-100">
-                <Card.Body>
-                    <Card.Title>Announcement</Card.Title>
-                        <div className="listGroupCls">
-                        </div>
-                    </Card.Body>
-                </Card>
-           </Col>
         </Row>
     )
 }

@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/exhaustive-deps */
-import React,{useEffect} from 'react';
+import React,{useState,useEffect} from 'react';
 import {
   Row,
   Col,
@@ -17,14 +17,36 @@ function SideBar(props) {
   const retData = useSelector((state) => state.VehicleReducers);
   console.log(retData , props?.vehicleName ,"ret");
   let list = retData?.viewAllList;
-  let concatedList = list && list.slice(0, 4)
+  const [concatedList , setcont] = useState([
+    {
+        "id": 1,
+        "name": "Vehicle 1"
+    },
+    {
+        "id": 2,
+        "name": "Vehicle 2"
+    },
+    {
+        "id": 3,
+        "name": "Vehicle 3"
+    },
+    {
+        "id": 4,
+        "name": "Vehicle 4"
+    }
+])
+let ccccc = [];
+  ccccc = list && list.slice(0, 3)
+  console.log(ccccc,concatedList ,"sgse")
   useEffect(() => {
     dispatch(retrieveAllVehiclesList());
   }, []);
 
-  const removeFromDataList = (e, idx) => {
-    e.stopPropagation();
-    list.splice(idx, 1);
+  const removeFromDataList = (idx) => {
+    concatedList.splice(idx,1);
+    setcont([...concatedList])
+    console.log(concatedList ,"seeee")
+
   }
   const localdata = concatedList && concatedList.map((ele,idx)=>{
     return(
@@ -34,7 +56,7 @@ function SideBar(props) {
               <span className="nav-link text-truncate d-none d-sm-inline tre" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </span>
               </Col>
               <Col sm={1}>
-              <span className="nav-link text-truncate d-none d-sm-inline"> X </span>
+              <span className="nav-link text-truncate d-none d-sm-inline" onClick={()=>{removeFromDataList(idx)}}> X </span>
               </Col>
         </Row>
       </li>
