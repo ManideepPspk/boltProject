@@ -31,7 +31,7 @@ function SideBar(props) {
       <li className="keyed nav-item" key={ele.name}>
         <Row>
           <Col sm={10}>
-              <span className="nav-link text-truncate d-none d-sm-inline" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </span>
+              <span className="nav-link text-truncate d-none d-sm-inline tre" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </span>
               </Col>
               <Col sm={1}>
               <span className="nav-link text-truncate d-none d-sm-inline"> X </span>
@@ -45,6 +45,9 @@ function SideBar(props) {
       <div className="header-top mt-3">
         { <a href="/">VEHICLE VIEWER </a>}
       </div>
+      <Row>
+      <Col sm={1}></Col>
+          <Col sm={9}>
       <ul className='mt-3'>
         { 
           <li className="nav-item mb-3" key='1stplace'>
@@ -55,6 +58,9 @@ function SideBar(props) {
             localdata
           }
       </ul>
+    </Col>
+    <Col sm={1}></Col>
+        </Row>
     </div>
   );
 }

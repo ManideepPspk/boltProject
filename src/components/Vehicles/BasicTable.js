@@ -8,19 +8,9 @@ import TableRow from "@mui/material/TableRow";
 import Paper from "@mui/material/Paper";
 import '../SideBar/Sidebar.scss';
 
-const rows = [
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 },
-    { startTime: "May 26, 5:18 pm", duration: "150 min", maxspeed: "20 kmph", averagespeed: "20 kmph", startingvoltage: "20 V", endvoltage: "20 V", distance: "20 Km", driverscore: 40 }
-];
 
-export default function BasicTable() {
+export default function BasicTable(props) {
+    const rows = props?.recent_trips;
     return (
         <TableContainer className="atblecont" component={Paper}>
             <Table aria-label="simple table">
@@ -37,7 +27,7 @@ export default function BasicTable() {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {rows.map((row) => (
+                    {rows && rows.map((row) => (
                         <TableRow
                             key={row.name}
                             sx={{ "&:last-child td, &:last-child th": { border: 0 } }}

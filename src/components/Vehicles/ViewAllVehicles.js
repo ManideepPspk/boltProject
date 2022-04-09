@@ -16,7 +16,8 @@ function ViewAllVehicles(props) {
   console.log(localdataforall, statedata, "loc")
   return (
     <>
-      <BasicTable />
+    {localdataforall?.vehicle_name}
+      <BasicTable recent_trips={localdataforall?.recent_trips}/>
     </>
   );
 }
