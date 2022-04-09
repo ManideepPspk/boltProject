@@ -12,7 +12,7 @@ export default function CustomSeparator(props) {
   }
   let breadcrumbsValue = [
     <Link underline="hover" key="1" color="inherit" href="/" onClick={handleClick}>
-      Home
+      Vehicles
     </Link>,
   ];
   if(props.vehicleName){
