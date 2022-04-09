@@ -27,10 +27,10 @@ function SideBar(props) {
   })
     return (
     <div  className={'sidebar'} >
-      <div className="header-top">
+      <div className="header-top mt-3">
         { <a href="/">VEHICLE VIEWER </a>}
       </div>
-      <ul>
+      <ul className='mt-3'>
         { 
           <li className="nav-item" key='1stplace'>
               <a className="nav-link text-truncate" href="/"><span className="d-none d-sm-inline">Dashboard</span></a>
