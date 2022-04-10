@@ -7,15 +7,11 @@
     background-color: #F5F5F5;;
     height: 100vh;
     list-style-type: none;
-    ul {
-        list-style: none; 
-        padding:0px;
-        li.main{
-            display: flex;
-            justify-content: center;
-        }
-      }
- }
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
  .vehicleShortcut{
     background: #FFFFFF;
     box-shadow: 0px 4px 5px #E0E0E0;
@@ -33,11 +29,11 @@
         cursor: pointer;
     }
     .x-element{
-        background: black;
-        border-radius: 100%;
-        color: white;
-        font-size: 12px;
-        cursor: pointer;
+        background-color: #000000;
+        border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    padding: 2px 4px;
     }
 }
 

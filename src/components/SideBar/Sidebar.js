@@ -24,32 +24,24 @@ function SideBar(props) {
   }
   const localdata = concatedList && concatedList.map((ele,idx)=>{
     return(
-      <li className="vehicleShortcut" key={ele.name}>
-        <div className='floar'>
-              <span className="nav-link text-truncate d-none d-sm-inline vehiclename" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </span>
-              <span className="nav-link text-truncate d-none d-sm-inline x-element" onClick={()=>{removeFromDataList(idx)}}> X </span>
-        </div>
-      </li>
+      <Row className="vehicleShortcut" key={ele.name}>
+        <Col sm={8} className="nav-link vehiclename" onClick={()=>{props.setVehicleName(ele.name); history.push({pathname:'/VehiclesPage', state:{selectedVehicle:ele} })}}> {ele.name} </Col>
+              <Col sm={1}className="nav-link " onClick={()=>{removeFromDataList(idx)}}> <span className={`x-element`}>&#10006;</span> </Col>
+      </Row>
     )
   })
     return (
     <div  className={'sidebar'} >
-      <div className="header-top mt-3">
+      <div className="header-top mt-3 mb-3">
         { <a href="/">Vehicle Viewer </a>}
       </div>
       <Row>
       <Col sm={1}></Col>
           <Col sm={9}>
-      <ul className='mt-3'>
-        { 
-          <li className="nav-item mt-3 mb-3 main" key='1stplace'>
-              <BasicPopover list={list} setVehicleName={props.setVehicleName}/>
-          </li>
-        }
+          <Row className="nav-item mt-3 mb-3 main"> <BasicPopover list={list} setVehicleName={props.setVehicleName}/></Row>
         {
             localdata
           }
-      </ul>
     </Col>
     <Col sm={1}></Col>
         </Row>
