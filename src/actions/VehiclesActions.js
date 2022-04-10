@@ -25,7 +25,7 @@ export const retrieveAllVehiclesList = () => async (dispatch) => {
     console.log(res.data);
     dispatch({
       type: VIEW_ALL_VEHICLESLIST,
-      payload: res.list,
+      payload: res.ListofVehicles,
     });
   } catch (err) {
     console.log(err);

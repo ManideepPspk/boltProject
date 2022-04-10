@@ -1,9 +1,13 @@
 import * as React from "react";
 import Popover from "@mui/material/Popover";
-import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
+import {useHistory} from 'react-router-dom';
+import './Popover.scss';
+import TextField from "@mui/material/TextField";
+import Stack from "@mui/material/Stack";
+import Autocomplete from "@mui/material/Autocomplete";
 
-export default function BasicPopover() {
+export default function BasicPopover(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
   const handleClick = (event) => {
@@ -13,14 +17,20 @@ export default function BasicPopover() {
   const handleClose = () => {
     setAnchorEl(null);
   };
-
+  const history = useHistory();
   const open = Boolean(anchorEl);
   const id = open ? "simple-popover" : undefined;
+  console.log(props?.list , "liost in mui")
+let optionsval = props?.list;
 
   return (
     <div>
-      <Button aria-describedby={id} variant="contained" onClick={handleClick}>
-        Open Popover
+      <Button aria-describedby={id}  style={{
+        borderRadius: 10,
+        backgroundColor: "#21b6ae",
+    }}
+     variant="contained" className="popoverbutton" onClick={handleClick}>
+       + Add Vehicle
       </Button>
       <Popover
         id={id}
@@ -36,7 +46,32 @@ export default function BasicPopover() {
             horizontal: 'left',
           }}
       >
-        <Typography sx={{ p: 2 }}>The content of the Popover.</Typography>
+        
+        <Stack spacing={2} sx={{ width: 200 }}>
+      <Autocomplete
+      id="combo-box"
+      freeSolo
+      disableClearable
+      options={optionsval}
+      getOptionLabel={(option) => option.name}
+      onChange={(e, value) =>{
+        console.log(e.target, value);
+        props.setVehicleName(value.name); 
+        history.push({pathname:'/VehiclesPage', state:{selectedVehicle:value} });
+        handleClose();
+      }
+      }
+      renderInput={(params) => (
+        <TextField
+          {...params}
+          InputProps={{
+            ...params.InputProps,
+            type: "search"
+          }}
+        />
+      )}
+    />
+    </Stack>
       </Popover>
     </div>
   );

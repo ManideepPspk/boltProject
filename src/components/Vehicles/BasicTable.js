@@ -13,7 +13,7 @@ export default function BasicTable(props) {
     const rows = props?.recent_trips;
     return (
         <TableContainer className="atblecont" component={Paper}>
-            <Table aria-label="simple table">
+            <Table stickyHeader aria-label="simple table">
                 <TableHead>
                     <TableRow>
                         <TableCell>Start Time</TableCell>
@@ -27,9 +27,9 @@ export default function BasicTable(props) {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    {rows && rows.map((row) => (
+                    {rows && rows.map((row,idx) => (
                         <TableRow
-                            key={row.name}
+                            key={idx}
                             sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                         >
                             <TableCell component="th" scope="row">

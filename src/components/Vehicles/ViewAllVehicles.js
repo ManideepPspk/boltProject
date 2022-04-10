@@ -20,7 +20,7 @@ function ViewAllVehicles(props) {
   const localdataforall = vehiclesdata && vehiclesdata.find((ele) => ele.id === statedata.id);
   console.log(localdataforall, statedata, "loc")
   return (
-    <>
+    <div className='ml-4 mr-4'>
     <Row  className="mt-2 mr-1 ml-1 ">
             <Col sm={4}>
              <Card className="w-100">
@@ -43,10 +43,10 @@ function ViewAllVehicles(props) {
                 </Card>
            </Col>
         </Row>
-        <Row>
+        <Row className='mt-3'>
       <BasicTable recent_trips={localdataforall?.recent_trips}/>
       </Row>
-    </>
+    </div>
   );
 }
 export default ViewAllVehicles;

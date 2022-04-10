@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Dashboard from '../components/Dashboard/Dashboard';
 
 function DashboardPage(props) {
-    console.log(props,'in page')
     return (
         <>
         <Router>

@@ -19,7 +19,7 @@ function App(props) {
             </div>
             <div className="col p-0">
             <div className="mainLayout">
-            <div className="mt-1 mb-4"><Header vehicleName={vehicleName}/></div>
+            <div className="mt-3 mb-4"><Header vehicleName={vehicleName}/></div>
               <Switch>
                 <Route  path={"/VehiclesPage"} component={VehiclesPage} />
                 <Route path={"/"} component={DashboardPage} exact/>
