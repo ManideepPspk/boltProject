@@ -6,7 +6,6 @@ import './Popover.scss';
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import Autocomplete from "@mui/material/Autocomplete";
-import { minHeight } from "@mui/system";
 
 export default function BasicPopover(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);

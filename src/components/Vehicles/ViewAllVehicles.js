@@ -6,9 +6,9 @@ import BasicTable from './BasicTable';
 import {
   Row,
   Col,
-  Card,
 } from 'react-bootstrap';
-import './ViewAllVehicles.scss'
+import './ViewAllVehicles.scss';
+import Chart from './Chart';
 
 function ViewAllVehicles(props) {
   const dispatch = useDispatch();
@@ -52,17 +52,11 @@ function ViewAllVehicles(props) {
 
         <Col sm={7} >
           <h6>Statistics</h6>
-          <Card className="w-100">
-            <Card.Body>
-              <Card.Title>Announcement</Card.Title>
-              <div className="listGroupCls">
-              </div>
-            </Card.Body>
-          </Card>
+          <Chart/>
         </Col>
       </Row>
-      <Row className='mt-3 mr-1 ml-1 wow2'>
-        <h6>Statistics</h6>
+      <Row className='mt-3 mr-1 ml-2 wow2'>
+        <h6>Recent Trips</h6>
         <BasicTable recent_trips={localdataforall?.recent_trips} />
       </Row>
     </div>
