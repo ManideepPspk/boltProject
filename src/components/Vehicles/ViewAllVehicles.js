@@ -9,6 +9,7 @@ import {
 } from 'react-bootstrap';
 import './ViewAllVehicles.scss';
 import Chart from './Chart';
+import CircularProgress from '@mui/material/CircularProgress';
 
 function ViewAllVehicles(props) {
   const dispatch = useDispatch();
@@ -29,6 +30,8 @@ function ViewAllVehicles(props) {
 
   return (
     <div className='ml-4 mr-4'>
+      {localdataforall?(
+        <>
       <Row className="mt-2 mr-1 ml-1 wow1">
         <Col sm={5}>
           <h6>Vehicle Status</h6>
@@ -59,6 +62,8 @@ function ViewAllVehicles(props) {
         <h6>Recent Trips</h6>
         <BasicTable recent_trips={localdataforall?.recent_trips} />
       </Row>
+      </>):(<div className='spinner'><CircularProgress /></div> )
+}
     </div>
   );
 }
