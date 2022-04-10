@@ -26,6 +26,7 @@ function ViewAllVehicles(props) {
     <span className={`tick-element ${propscall}`}> &#10003;</span>
     )
   }
+
   return (
     <div className='ml-4 mr-4'>
       <Row className="mt-2 mr-1 ml-1 wow1">
@@ -51,8 +52,7 @@ function ViewAllVehicles(props) {
         </Col>
 
         <Col sm={7} >
-          <h6>Statistics</h6>
-          <Chart/>
+          {localdataforall && <Chart datatochart = {localdataforall.vehicleStatistics} />}
         </Col>
       </Row>
       <Row className='mt-3 mr-1 ml-2 wow2'>

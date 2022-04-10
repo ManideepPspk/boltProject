@@ -1,0 +1,8 @@
+.btncr{
+    &.false{
+        background-color: antiquewhite;
+    }
+    &.true{
+        background-color: grey;
+    }
+}
