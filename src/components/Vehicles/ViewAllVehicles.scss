@@ -1,36 +1,41 @@
 @import '../../scss/_variable.scss';
-.wow1{
+@import '../../scss/global_mixin.scss';
+
+.wow1 {
     height: 39vh;
 }
-.wow2{
+
+.wow2 {
     height: 43vh;
 }
-.clm1{
+
+.clm1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     min-height: 195px;
 }
-.clrdiv{
+
+.clrdiv {
     background: linear-gradient(253.84deg, #F5F5F5 0%, #FAFAFA 100%, #FAFAFA 100%);
     border-radius: 5px;
     min-height: 235px;
 }
-.font1{
+
+.font1 {
     font-size: $fs-14;
 }
-.tick-element{
-    &.true{
-    background: $tick-enabled;
+
+.tick-element {
+    &.true {
+        @include tickCrossCircle ($tick-enabled, $primary-white, $fs-10);
     }
-    &.false{
-        background: $tick-disabled;
+
+    &.false {
+        @include tickCrossCircle ($tick-disabled, $primary-white, $fs-10);
     }
-    border-radius: 50%;
-    color: $primary-white;
-    font-size: $fs-10;
-    padding: 2px 4px;
 }
-.fw-500{
+
+.fw-500 {
     font-weight: $fw-500;
 }

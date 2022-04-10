@@ -1,4 +1,5 @@
 @import '../../scss/_variable.scss';
+@import '../../scss/global_mixin.scss';
 .sidebar{
     position:fixed;
     top:0px;
@@ -29,11 +30,7 @@
         cursor: pointer;
     }
     .x-element{
-        background-color: $sidebar-black-color;
-        border-radius: 50%;
-    color: white;
-    font-size: $fs-10;
-    padding: 2px 4px;
+        @include  tickCrossCircle ($sidebar-black-color, $primary-white, $fs-10);
      cursor: pointer;
     }
 }
