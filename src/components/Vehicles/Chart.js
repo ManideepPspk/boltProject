@@ -14,7 +14,6 @@ const Chart = (props) => {
             labels: datarestored?.bookings?.Max?.labelsname,
             datasets: [
                 {
-                    label: "# of Votes",
                     data: datarestored?.bookings?.Max?.datavalue,
                     backgroundColor: [
                         "rgba(255, 99, 132, 0.2)",
@@ -68,26 +67,26 @@ const Chart = (props) => {
 
     return (
         <div>
-            <b>Statistics</b>
+            <span className="statistics mr-2">Statistics</span>
             <button className={monthEarning==="bookings"?"btncr true":"btncr false"} onClick={() => { setMonthEarning("bookings"); setDays("Max"); updateDataset(0, datarestored?.bookings?.Max?.datavalue, datarestored?.bookings?.Max?.labelsname); }}>Bookings</button>
             <button className={monthEarning==="earnings"?"btncr true":"btncr false"} onClick={() => { setMonthEarning("earnings"); setDays("Max"); updateDataset(0, datarestored?.earnings?.Max?.datavalue, datarestored?.earnings?.Max?.labelsname); }}>Earnings</button>
 
             {monthEarning === "bookings" ? (
-                <>
+                <span className="flr">
                     <button className={(monthEarning==="bookings" && days==="Day")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Day?.datavalue, datarestored?.bookings?.Day?.labelsname); setDays("Day") }}>D</button>
                     <button className={(monthEarning==="bookings" && days==="Week")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Week?.datavalue, datarestored?.bookings?.Week?.labelsname); setDays("Week") }}>W</button>
                     <button className={(monthEarning==="bookings" && days==="Month")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Month?.datavalue, datarestored?.bookings?.Month?.labelsname); setDays("Month") }}>M</button>
                     <button className={(monthEarning==="bookings" && days==="Year")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Year?.datavalue, datarestored?.bookings?.Year?.labelsname); setDays("Year") }}>Y</button>
                     <button className={(monthEarning==="bookings" && days==="Max")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Max?.datavalue, datarestored?.bookings?.Max?.labelsname); setDays("Max") }}>Max</button>
-                </>
+                </span>
             ) : (
-                <>
+                <span>
                     <button className={(monthEarning==="earnings" && days==="Day")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Day?.datavalue, datarestored?.earnings?.Day?.labelsname); setDays("Day") }}>D</button>
                     <button className={(monthEarning==="earnings" && days==="Week")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Week?.datavalue, datarestored?.earnings?.Week?.labelsname); setDays("Week") }}>W</button>
                     <button className={(monthEarning==="earnings" && days==="Month")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Month?.datavalue, datarestored?.earnings?.Month?.labelsname); setDays("Month") }}>M</button>
                     <button className={(monthEarning==="earnings" && days==="Year")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Year?.datavalue, datarestored?.earnings?.Year?.labelsname); setDays("Year") }}>Y</button>
                     <button className={(monthEarning==="earnings" && days==="Max")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Max?.datavalue, datarestored?.earnings?.Max?.labelsname); setDays("Max") }}>Max</button>
-                </>
+                </span>
             )
 
             }

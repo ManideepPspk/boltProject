@@ -1,8 +1,27 @@
+@import '../../scss/_variable.scss';
 .btncr{
     &.false{
-        background-color: antiquewhite;
+        background-color: $sidebar-bgColor;
+        color: $tick-disabled;
     }
     &.true{
-        background-color: grey;
+        background-color: $tick-disabled;
+        color: $sidebar-bgColor;
     }
+}
+button{
+    font-size: $fs-14;
+    font-weight: $fw-700;
+    margin-right: 6px;
+    margin-left: 6px;
+    border: none;
+    border-radius: 5px;
+}
+.flr{
+    float: right;
+}
+.statistics{
+    font-weight: $fw-700;
+font-size: $fs-16;
+line-height: 22px;
 }
