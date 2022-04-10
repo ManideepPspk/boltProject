@@ -38,7 +38,7 @@ function SideBar(props) {
       <Row>
       <Col sm={1}></Col>
           <Col sm={9}>
-          <Row className="nav-item mt-3 mb-3 main"> <BasicPopover list={list} setVehicleName={props.setVehicleName}/></Row>
+          <Row className="nav-item mt-3 mb-3 mb-10 popover-row"> <BasicPopover list={list} setVehicleName={props.setVehicleName}/></Row>
         {
             localdata
           }

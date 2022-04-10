@@ -4,36 +4,37 @@
     top:0px;
     width: 21.1%;
     padding:5px;
-    background-color: #F5F5F5;;
+    background-color: $sidebar-bgColor;;
     height: 100vh;
     list-style-type: none;
 }
-.main{
+.popover-row{
     display: flex;
     justify-content: center;
 }
  .vehicleShortcut{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 5px #E0E0E0;
+    background: $primary-white;
+    box-shadow: 0px 4px 5px $shadow-white;
     border-radius: 10px;
     height: 48px;
-    margin-bottom: 20px;
+    margin-top: 20px;
     display: flex;
-  align-items: center;
+    align-items: center;
     .vehiclename{
         height: 22px;
-        font-weight: 400;
-        font-size: 18px;
+        font-weight: $fw-400;
+        font-size: $fs-18;
         line-height: 22px;
         margin-left: 26px;
         cursor: pointer;
     }
     .x-element{
-        background-color: #000000;
+        background-color: $sidebar-black-color;
         border-radius: 50%;
     color: white;
-    font-size: 10px;
+    font-size: $fs-10;
     padding: 2px 4px;
+     cursor: pointer;
     }
 }
 
@@ -44,10 +45,10 @@
     a{
         text-decoration: none;
         font-style: normal;
-        font-weight: 700;
-        font-size: 24px;
+        font-weight: $fw-700;
+        font-size: $fs-24;
         line-height: 29px;
-        color: #000000;
+        color: $sidebar-black-color;
     }
 }
 .nav-item, .nav-link{
@@ -57,11 +58,11 @@
 .nav-link{
     padding:4px;
 }
-.atblecont{
+.tableContent{
     height:330px;
   -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
-.atblecont::-webkit-scrollbar {
+.tableContent::-webkit-scrollbar {
     display: none;
 }

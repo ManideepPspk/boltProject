@@ -11,7 +11,7 @@ export default function CustomSeparator(props) {
     console.info('You clicked a breadcrumb.');
   }
   let breadcrumbsValue = [
-    <Link underline="hover" key="1" color="inherit" href="/" onClick={handleClick}>
+    <Link style={{ textDecoration: 'none' }} key="1" color="inherit" href="/" onClick={handleClick}>
       Vehicles
     </Link>,
   ];

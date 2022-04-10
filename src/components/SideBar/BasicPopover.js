@@ -6,6 +6,7 @@ import './Popover.scss';
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import Autocomplete from "@mui/material/Autocomplete";
+import { minHeight } from "@mui/system";
 
 export default function BasicPopover(props) {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -24,12 +25,14 @@ export default function BasicPopover(props) {
 let optionsval = props?.list;
 
   return (
-    <div>
+    <div className="mb-3">
       <Button aria-describedby={id}  style={{
         borderRadius: 10,
-        backgroundColor: "#21b6ae",
+        backgroundColor: "#424242",
+        minWidth: 250,
+        minHeight: 40
     }}
-     variant="contained" className="popoverbutton" onClick={handleClick}>
+     variant="contained" className="" onClick={handleClick}>
        + Add Vehicle
       </Button>
       <Popover

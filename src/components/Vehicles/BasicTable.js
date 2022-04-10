@@ -12,7 +12,7 @@ import '../SideBar/Sidebar.scss';
 export default function BasicTable(props) {
     const rows = props?.recent_trips;
     return (
-        <TableContainer className="atblecont" component={Paper}>
+        <TableContainer className="tableContent" component={Paper}>
             <Table stickyHeader aria-label="simple table">
                 <TableHead>
                     <TableRow>
