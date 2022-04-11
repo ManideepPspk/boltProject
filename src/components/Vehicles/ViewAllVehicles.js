@@ -38,10 +38,10 @@ function ViewAllVehicles(props) {
           <div className="w-100 mt-2 clrdiv">
             <Row>
               <Col sm={6} className="ml-4 clm1 mt-2 font1">
-                <Row><Col sm={6} className="fw-500" >Elevation</Col><Col sm={4} >{localdataforall?.vehicleStatus?.elevation}</Col></Row>
-                <Row><Col sm={6} className="fw-500" >Temparature</Col><Col sm={4} >{localdataforall?.vehicleStatus?.temperature} &#8451;</Col></Row>
-                <Row><Col sm={6} className="fw-500" >Locked</Col><Col sm={1} >{tickfun(localdataforall?.vehicleStatus?.locked)}</Col></Row>
-                <Row><Col sm={6} className="fw-500" >Battery</Col><Col sm={4} >{localdataforall?.vehicleStatus?.battery} %</Col></Row>
+                <Row><Col sm={5} className="fw-500" >Elevation</Col><Col sm={4} >{localdataforall?.vehicleStatus?.elevation}</Col></Row>
+                <Row><Col sm={5} className="fw-500" >Temparature</Col><Col sm={4} >{localdataforall?.vehicleStatus?.temperature} &#8451;</Col></Row>
+                <Row><Col sm={5} className="fw-500" >Locked</Col><Col sm={1} >{tickfun(localdataforall?.vehicleStatus?.locked)}</Col></Row>
+                <Row><Col sm={5} className="fw-500" >Battery</Col><Col sm={4} >{localdataforall?.vehicleStatus?.battery} %</Col></Row>
               </Col>
               <Col sm={5} className="clm1 mt-2 font1">
                 <Row><Col sm={1} >{tickfun(localdataforall?.vehicleStatus?.throttle)}</Col><Col sm={6} className="fw-500" >Throttle</Col></Row>
