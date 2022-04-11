@@ -1,4 +1,5 @@
-[
+{
+  "data":[
     {
       "id": 1,
       "vehicle_name": "Vehicle 1",
@@ -8,7 +9,7 @@
         "locked": true,
         "battery": 75.6,
         "throttle": true,
-        "controller": true,
+        "controller": false,
         "motor": true,
         "overload": true,
         "overcurrent": true
@@ -17,88 +18,68 @@
         {
           "startTime": "May 26, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "15 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 26, 5:18 pm",
+          "startTime": "May 26, 5:08 pm",
+          "duration": "10 min",
+          "maxspeed": "75 kmph",
+          "averagespeed": "200 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 26, 3:18 pm",
+          "duration": "50 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "25 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "30 V",
+          "distance": "20 Km",
+          "driverscore": 50
+        },
+        {
+          "startTime": "May 25, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "65 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 26, 5:18 pm",
+          "startTime": "May 25, 5:10 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 26, 5:18 pm",
+          "startTime": "May 25, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "45 kmph",
+          "averagespeed": "45 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 26, 5:18 pm",
+          "startTime": "May 23, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 26, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 26, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 26, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 26, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "95 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -106,48 +87,216 @@
         }
       ],
       "vehicleStatistics": {
-        "bookings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,14,10,9,2,13,8]
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              2,
+              13,
+              8,
+              11,
+              58,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,13,4,8,19]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              2,
+              13,
+              4,
+              8,
+              19,
+              11,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,14,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              1,
+              9,
+              14,
+              16,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [2,4,4,10,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              2,
+              4,
+              4,
+              10,
+              9,
+              8,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,3,4,10,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
           }
         },
-        "earnings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [2,3,14,1,19,2,13,8]
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              10,
+              19,
+              2,
+              13,
+              18,
+              11,
+              8,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,3,4,8,9]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              18,
+              19,
+              1,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,4,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              9,
+              14,
+              6,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [12,4,14,10,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              10,
+              19,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [2,13,4,10,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
           }
         }
       }
@@ -170,8 +319,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "95 kmph",
+          "averagespeed": "75 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -180,8 +329,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "25 kmph",
+          "averagespeed": "55 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -190,8 +339,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "45 kmph",
+          "averagespeed": "15 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -200,8 +349,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "45 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -210,8 +359,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "65 kmph",
+          "averagespeed": "55 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -220,8 +369,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "54 kmph",
+          "averagespeed": "51 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -230,8 +379,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -240,8 +389,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "59 kmph",
+          "averagespeed": "51 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -250,8 +399,8 @@
         {
           "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -259,48 +408,216 @@
         }
       ],
       "vehicleStatistics": {
-        "bookings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,4,10,19,2,13,8]
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              12,
+              3,
+              8,
+              11,
+              8,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,13,14,18,19]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              18,
+              9,
+              1,
+              1
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,19,4,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              14,
+              16,
+              18,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [2,4,14,1,19,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              1,
+              19,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,13,14,1,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9
+            ]
           }
         },
-        "earnings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,14,11,19,12,13,18]
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              3,
+              4,
+              10,
+              19,
+              21,
+              1,
+              8,
+              1,
+              8,
+              1
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [12,13,4,8,9]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              14,
+              18,
+              9,
+              1,
+              1
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,14,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              4,
+              6,
+              18,
+              11,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [12,14,4,10,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              4,
+              14,
+              1,
+              9,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,13,4,10,19]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              1,
+              9
+            ]
           }
         }
       }
@@ -309,102 +626,82 @@
       "id": 3,
       "vehicle_name": "Vehicle 3",
       "vehicleStatus": {
-        "elevation": 100,
-        "temperature": 25,
-        "locked": false,
-        "battery": 95.6,
+        "elevation": 20,
+        "temperature": 43,
+        "locked": true,
+        "battery": 75,
         "throttle": true,
         "controller": true,
-        "motor": true,
+        "motor": false,
         "overload": false,
-        "overcurrent": false
+        "overcurrent": true
       },
       "recent_trips": [
         {
-          "startTime": "May 28, 5:18 pm",
+          "startTime": "May 2, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "15 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 28, 5:18 pm",
+          "startTime": "May 6, 5:08 pm",
+          "duration": "10 min",
+          "maxspeed": "75 kmph",
+          "averagespeed": "200 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 2, 3:18 pm",
+          "duration": "50 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "25 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "30 V",
+          "distance": "20 Km",
+          "driverscore": 50
+        },
+        {
+          "startTime": "May 2, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "65 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 28, 5:18 pm",
+          "startTime": "May 2, 5:10 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 28, 5:18 pm",
+          "startTime": "May 5, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "45 kmph",
+          "averagespeed": "45 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 28, 5:18 pm",
+          "startTime": "May 23, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 28, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 28, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 28, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 28, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "95 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -412,48 +709,216 @@
         }
       ],
       "vehicleStatistics": {
-        "bookings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,14,10,9,2,13,8]
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              2,
+              13,
+              8,
+              11,
+              58,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,13,14,8,19]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              2,
+              13,
+              4,
+              8,
+              19,
+              11,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,4,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              1,
+              9,
+              14,
+              16,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [2,14,4,10,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              2,
+              4,
+              4,
+              10,
+              9,
+              8,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,13,4,10,19]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
           }
         },
-        "earnings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [2,3,14,1,19,12,13,8]
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              10,
+              19,
+              2,
+              13,
+              18,
+              11,
+              8,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,3,4,8,19]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              18,
+              19,
+              1,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [11,9,14,16,18]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              9,
+              14,
+              6,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [12,14,14,10,19,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              10,
+              19,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [2,13,14,10,19]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
           }
         }
       }
@@ -462,102 +927,62 @@
       "id": 4,
       "vehicle_name": "Vehicle 4",
       "vehicleStatus": {
-        "elevation": 200,
-        "temperature": 45,
+        "elevation": 400,
+        "temperature": 55,
         "locked": true,
-        "battery": 75.6,
+        "battery": 35.6,
         "throttle": true,
         "controller": true,
-        "motor": true,
-        "overload": true,
+        "motor": false,
+        "overload": false,
         "overcurrent": true
       },
       "recent_trips": [
         {
-          "startTime": "May 29, 5:18 pm",
+          "startTime": "May 7, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "95 kmph",
+          "averagespeed": "75 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "200 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 2, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "59 kmph",
+          "averagespeed": "55 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 29, 5:18 pm",
+          "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "45 kmph",
+          "averagespeed": "15 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 29, 5:18 pm",
+          "startTime": "May 27, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "45 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 29, 5:18 pm",
+          "startTime": "May 2, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 29, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 29, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 29, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 29, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 29, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "65 kmph",
+          "averagespeed": "55 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -565,48 +990,216 @@
         }
       ],
       "vehicleStatistics": {
-        "bookings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,14,10,9,12,13,8]
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              12,
+              3,
+              8,
+              11,
+              8,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,13,14,8,1]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              18,
+              9,
+              1,
+              1
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,14,1,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              14,
+              16,
+              18,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [2,4,4,10,19,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              1,
+              19,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,3,4,1,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9
+            ]
           }
         },
-        "earnings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [2,3,14,11,9,12,13,8]
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              3,
+              4,
+              10,
+              19,
+              21,
+              1,
+              8,
+              1,
+              8,
+              1
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,3,4,18,9]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              14,
+              18,
+              9,
+              1,
+              1
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,4,1,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              4,
+              6,
+              18,
+              11,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [12,4,4,1,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              4,
+              14,
+              1,
+              9,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [2,13,14,10,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              1,
+              9
+            ]
           }
         }
       }
@@ -617,100 +1210,80 @@
       "vehicleStatus": {
         "elevation": 200,
         "temperature": 45,
-        "locked": true,
+        "locked": false,
         "battery": 75.6,
         "throttle": true,
-        "controller": true,
+        "controller": false,
         "motor": true,
-        "overload": true,
+        "overload": false,
         "overcurrent": true
       },
       "recent_trips": [
         {
-          "startTime": "May 30, 5:18 pm",
+          "startTime": "May 26, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "15 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 30, 5:18 pm",
+          "startTime": "May 26, 5:08 pm",
+          "duration": "10 min",
+          "maxspeed": "75 kmph",
+          "averagespeed": "200 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 26, 3:18 pm",
+          "duration": "50 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "25 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "30 V",
+          "distance": "20 Km",
+          "driverscore": 50
+        },
+        {
+          "startTime": "May 25, 5:18 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "65 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 30, 5:18 pm",
+          "startTime": "May 25, 5:10 pm",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "5 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 30, 5:18 pm",
+          "startTime": "May 25, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "45 kmph",
+          "averagespeed": "45 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
           "driverscore": 40
         },
         {
-          "startTime": "May 30, 5:18 pm",
+          "startTime": "May 23, 4:40 am",
           "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 30, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 30, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 30, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
-          "startingvoltage": "20 V",
-          "endvoltage": "20 V",
-          "distance": "20 Km",
-          "driverscore": 40
-        },
-        {
-          "startTime": "May 30, 5:18 pm",
-          "duration": "150 min",
-          "maxspeed": "20 kmph",
-          "averagespeed": "20 kmph",
+          "maxspeed": "85 kmph",
+          "averagespeed": "95 kmph",
           "startingvoltage": "20 V",
           "endvoltage": "20 V",
           "distance": "20 Km",
@@ -718,50 +1291,1784 @@
         }
       ],
       "vehicleStatistics": {
-        "bookings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [12,13,1,1,9,2,13,8]
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              2,
+              13,
+              8,
+              11,
+              58,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,3,4,8,19]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              2,
+              13,
+              4,
+              8,
+              19,
+              11,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,19,14,16,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              1,
+              9,
+              14,
+              16,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [2,4,14,10,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              2,
+              4,
+              4,
+              10,
+              9,
+              8,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,3,14,10,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
           }
         },
-        "earnings":{
-          "Max":{
-           "labelsname": [2012,2013,2014,2015,2016,2017,2018,2019],
-           "datavalue": [2,3,1,1,19,2,13,8]
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              10,
+              19,
+              2,
+              13,
+              18,
+              11,
+              8,
+              10
+            ]
           },
-          "Year":{
-           "labelsname": ["Jan","Apr","July","Oct","Dec"],
-           "datavalue": [2,3,14,8,9]
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              18,
+              19,
+              1,
+              10
+            ]
           },
-          "Month":{
-           "labelsname": ["1st","8th","15th","22nd","28th"],
-           "datavalue": [1,9,14,1,8]
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              9,
+              14,
+              6,
+              8,
+              1,
+              12
+            ]
           },
-          "Week":{
-           "labelsname": ["Mon","Tue","Wed","Thurs","Fri","Sat"],
-           "datavalue": [12,14,1,1,9,8]
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              10,
+              19,
+              18,
+              17
+            ]
           },
-          "Day":{
-           "labelsname": ["8am","11am","2pm","6pm","10pm"],
-           "datavalue": [12,3,4,10,9]
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "vehicle_name": "Vehicle 6",
+      "vehicleStatus": {
+        "elevation": 400,
+        "temperature": 55,
+        "locked": false,
+        "battery": 35.6,
+        "throttle": false,
+        "controller": false,
+        "motor": true,
+        "overload": false,
+        "overcurrent": true
+      },
+      "recent_trips": [
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "95 kmph",
+          "averagespeed": "75 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "25 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "15 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "45 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "65 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "54 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "59 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        }
+      ],
+      "vehicleStatistics": {
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              12,
+              3,
+              8,
+              11,
+              8,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              14,
+              16,
+              18,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              1,
+              19,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9
+            ]
+          }
+        },
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              3,
+              4,
+              10,
+              19,
+              21,
+              1,
+              8,
+              1,
+              8,
+              1
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              14,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              4,
+              6,
+              18,
+              11,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              4,
+              14,
+              1,
+              9,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              1,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "vehicle_name": "Vehicle 7",
+      "vehicleStatus": {
+        "elevation": 20,
+        "temperature": 45,
+        "locked": true,
+        "battery": 7,
+        "throttle": false,
+        "controller": false,
+        "motor": true,
+        "overload": false,
+        "overcurrent": true
+      },
+      "recent_trips": [
+        {
+          "startTime": "May 26, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "15 kmph",
+          "averagespeed": "5 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 26, 5:08 pm",
+          "duration": "10 min",
+          "maxspeed": "75 kmph",
+          "averagespeed": "200 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 26, 3:18 pm",
+          "duration": "50 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "25 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "30 V",
+          "distance": "20 Km",
+          "driverscore": 50
+        },
+        {
+          "startTime": "May 25, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "65 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 25, 5:10 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "5 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 25, 4:40 am",
+          "duration": "150 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "45 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 23, 4:40 am",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "95 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        }
+      ],
+      "vehicleStatistics": {
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              2,
+              13,
+              8,
+              11,
+              58,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              2,
+              13,
+              4,
+              8,
+              19,
+              11,
+              10
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              1,
+              9,
+              14,
+              16,
+              8,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              2,
+              4,
+              4,
+              10,
+              9,
+              8,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
+          }
+        },
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              10,
+              19,
+              2,
+              13,
+              18,
+              11,
+              8,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              18,
+              19,
+              1,
+              10
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              9,
+              14,
+              6,
+              8,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              10,
+              19,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "vehicle_name": "Vehicle 8",
+      "vehicleStatus": {
+        "elevation": 400,
+        "temperature": 55,
+        "locked": true,
+        "battery": 35.6,
+        "throttle": false,
+        "controller": true,
+        "motor": false,
+        "overload": true,
+        "overcurrent": true
+      },
+      "recent_trips": [
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "95 kmph",
+          "averagespeed": "75 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "25 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "15 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "45 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "65 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "54 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "59 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        }
+      ],
+      "vehicleStatistics": {
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              12,
+              3,
+              8,
+              11,
+              8,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              14,
+              16,
+              18,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              1,
+              19,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9
+            ]
+          }
+        },
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              3,
+              4,
+              10,
+              19,
+              21,
+              1,
+              8,
+              1,
+              8,
+              1
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              14,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              4,
+              6,
+              18,
+              11,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              4,
+              14,
+              1,
+              9,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              1,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "vehicle_name": "Vehicle 9",
+      "vehicleStatus": {
+        "elevation": 200,
+        "temperature": 4,
+        "locked": true,
+        "battery": 75,
+        "throttle": false,
+        "controller": false,
+        "motor": true,
+        "overload": true,
+        "overcurrent": true
+      },
+      "recent_trips": [
+        {
+          "startTime": "May 26, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "15 kmph",
+          "averagespeed": "5 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 26, 5:08 pm",
+          "duration": "10 min",
+          "maxspeed": "75 kmph",
+          "averagespeed": "200 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 60
+        },
+        {
+          "startTime": "May 26, 3:18 pm",
+          "duration": "50 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "25 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "30 V",
+          "distance": "20 Km",
+          "driverscore": 50
+        },
+        {
+          "startTime": "May 25, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "65 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 25, 5:10 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "5 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 25, 4:40 am",
+          "duration": "150 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "45 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 23, 4:40 am",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "95 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        }
+      ],
+      "vehicleStatistics": {
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              2,
+              13,
+              8,
+              11,
+              58,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              2,
+              13,
+              4,
+              8,
+              19,
+              11,
+              10
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              1,
+              9,
+              14,
+              16,
+              8,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              2,
+              4,
+              4,
+              10,
+              9,
+              8,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
+          }
+        },
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              10,
+              19,
+              2,
+              13,
+              18,
+              11,
+              8,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              18,
+              19,
+              1,
+              10
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              9,
+              14,
+              6,
+              8,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              10,
+              19,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              10,
+              9
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "vehicle_name": "Vehicle 10",
+      "vehicleStatus": {
+        "elevation": 40,
+        "temperature": 15,
+        "locked": true,
+        "battery": 3.6,
+        "throttle": false,
+        "controller": false,
+        "motor": true,
+        "overload": true,
+        "overcurrent": true
+      },
+      "recent_trips": [
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "95 kmph",
+          "averagespeed": "75 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "25 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "45 kmph",
+          "averagespeed": "15 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "85 kmph",
+          "averagespeed": "45 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "65 kmph",
+          "averagespeed": "55 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "54 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "59 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        },
+        {
+          "startTime": "May 27, 5:18 pm",
+          "duration": "150 min",
+          "maxspeed": "52 kmph",
+          "averagespeed": "51 kmph",
+          "startingvoltage": "20 V",
+          "endvoltage": "20 V",
+          "distance": "20 Km",
+          "driverscore": 40
+        }
+      ],
+      "vehicleStatistics": {
+        "bookings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9,
+              12,
+              3,
+              8,
+              11,
+              8,
+              10
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              4,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              14,
+              16,
+              18,
+              1,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              14,
+              4,
+              1,
+              19,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              12,
+              13,
+              14,
+              10,
+              9
+            ]
+          }
+        },
+        "earnings": {
+          "Max": {
+            "labelsname": [
+              2012,
+              2013,
+              2014,
+              2015,
+              2016,
+              2017,
+              2018,
+              2019,
+              2020,
+              2021,
+              2022
+            ],
+            "datavalue": [
+              2,
+              3,
+              4,
+              10,
+              19,
+              21,
+              1,
+              8,
+              1,
+              8,
+              1
+            ]
+          },
+          "Year": {
+            "labelsname": [
+              "Jan",
+              "Mar",
+              "May",
+              "July",
+              "Sep",
+              "Nov",
+              "Dec"
+            ],
+            "datavalue": [
+              12,
+              3,
+              14,
+              18,
+              9,
+              1,
+              1
+            ]
+          },
+          "Month": {
+            "labelsname": [
+              "1st",
+              "5th",
+              "10th",
+              "15th",
+              "20th",
+              "25th",
+              "30th"
+            ],
+            "datavalue": [
+              11,
+              19,
+              4,
+              6,
+              18,
+              11,
+              12
+            ]
+          },
+          "Week": {
+            "labelsname": [
+              "Mon",
+              "Tue",
+              "Wed",
+              "Thurs",
+              "Fri",
+              "Sat",
+              "Sun"
+            ],
+            "datavalue": [
+              12,
+              4,
+              14,
+              1,
+              9,
+              18,
+              17
+            ]
+          },
+          "Day": {
+            "labelsname": [
+              "8am",
+              "11am",
+              "2pm",
+              "6pm",
+              "10pm"
+            ],
+            "datavalue": [
+              2,
+              13,
+              14,
+              1,
+              9
+            ]
           }
         }
       }
     }
   ]
+}

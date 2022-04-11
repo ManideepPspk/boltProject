@@ -2,7 +2,7 @@ import http from "../http-common";
 import listjson from "../json/List.json";
 
 const getAll = () => {
-   return http.get("/b/8GWW");
+   return http.get("/b/LGL9");
 };
 
 const getList = () => {
