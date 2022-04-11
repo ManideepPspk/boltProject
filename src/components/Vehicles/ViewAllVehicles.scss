@@ -19,7 +19,7 @@
 .clrdiv {
     background: linear-gradient(253.84deg, #F5F5F5 0%, #FAFAFA 100%, #FAFAFA 100%);
     border-radius: 5px;
-    min-height: 235px;
+    height: 235px;
 }
 
 .font1 {
@@ -42,4 +42,7 @@
 .spinner{
     display: flex;
     justify-content: center;
+}
+.clrdiv2 {
+    height: 235px;
 }

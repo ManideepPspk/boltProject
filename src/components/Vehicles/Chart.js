@@ -44,7 +44,11 @@ const Chart = (props) => {
                         }
                     }
                 ]
-            }
+            },
+            maintainAspectRatio: false,
+                legend: {
+                  display: false
+                }
         }
     };
 
@@ -80,7 +84,7 @@ const Chart = (props) => {
                     <button className={(monthEarning==="bookings" && days==="Max")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.bookings?.Max?.datavalue, datarestored?.bookings?.Max?.labelsname); setDays("Max") }}>Max</button>
                 </span>
             ) : (
-                <span>
+                <span  className="flr">
                     <button className={(monthEarning==="earnings" && days==="Day")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Day?.datavalue, datarestored?.earnings?.Day?.labelsname); setDays("Day") }}>D</button>
                     <button className={(monthEarning==="earnings" && days==="Week")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Week?.datavalue, datarestored?.earnings?.Week?.labelsname); setDays("Week") }}>W</button>
                     <button className={(monthEarning==="earnings" && days==="Month")?"btncr true":"btncr false"} onClick={() => { updateDataset(0, datarestored?.earnings?.Month?.datavalue, datarestored?.earnings?.Month?.labelsname); setDays("Month") }}>M</button>

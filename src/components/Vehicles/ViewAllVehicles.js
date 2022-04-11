@@ -55,10 +55,12 @@ function ViewAllVehicles(props) {
         </Col>
 
         <Col sm={7} >
+        <div className="w-100 clrdiv2">
           {localdataforall && <Chart datatochart = {localdataforall.vehicleStatistics} />}
+          </div>
         </Col>
       </Row>
-      <Row className='mt-3 mr-1 ml-2 wow2'>
+      <Row className=' mr-1 ml-2 wow2'>
         <h6>Recent Trips</h6>
         <BasicTable recent_trips={localdataforall?.recent_trips} />
       </Row>
