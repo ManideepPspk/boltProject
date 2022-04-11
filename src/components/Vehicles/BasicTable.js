@@ -11,19 +11,24 @@ import './Table.scss';
 
 export default function BasicTable(props) {
     const rows = props?.recent_trips;
+    const tableval= (props1 , ssss) => {
+        return(
+            <span className={ssss}>{props1}</span>
+        )
+    }
     return (
         <TableContainer className="tableContent" component={Paper}>
             <Table stickyHeader aria-label="simple table">
                 <TableHead>
                     <TableRow>
-                        <TableCell>Start Time</TableCell>
-                        <TableCell align="left">Duration</TableCell>
-                        <TableCell align="left">Max Speed</TableCell>
-                        <TableCell align="left">Average Speed</TableCell>
-                        <TableCell align="left">Starting Voltage</TableCell>
-                        <TableCell align="left">Ending Voltage </TableCell>
-                        <TableCell align="left">Distance</TableCell>
-                        <TableCell align="left">Driver Score</TableCell>
+                        <TableCell>{tableval("Start Time","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Duration","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Max Speed","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Average Speed","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Starting Voltage","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Ending Voltage","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Distance","tablehead")}</TableCell>
+                        <TableCell align="left">{tableval("Driver Score","tablehead")}</TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
@@ -33,15 +38,15 @@ export default function BasicTable(props) {
                             sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
                         >
                             <TableCell component="th" scope="row">
-                                {row.startTime}
+                                {tableval(row.startTime,"tablebody")}
                             </TableCell>
-                            <TableCell align="left">{row.duration}</TableCell>
-                            <TableCell align="left">{row.maxspeed}</TableCell>
-                            <TableCell align="left">{row.averagespeed}</TableCell>
-                            <TableCell align="left">{row.startingvoltage}</TableCell>
-                            <TableCell align="left">{row.endvoltage}</TableCell>
-                            <TableCell align="left">{row.distance}</TableCell>
-                            <TableCell align="left">{row.driverscore}</TableCell>
+                            <TableCell align="left">{tableval(row.duration,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.maxspeed,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.averagespeed,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.startingvoltage,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.endvoltage,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.distance,"tablebody")}</TableCell>
+                            <TableCell align="left">{tableval(row.driverscore,"tablebody")}</TableCell>
                         </TableRow>
                     ))}
                 </TableBody>
