@@ -60,7 +60,7 @@ const Chart = (props) => {
             const newChartInstance = new Chartjs(chartContainer.current, chartConfig);
             setChartInstance(newChartInstance);
         }
-    }, [chartContainer]);
+    }, [datarestored]);
 
 
     const updateDataset = (datasetIndex, newData, newda) => {
@@ -95,7 +95,7 @@ const Chart = (props) => {
 
             }
             <div>
-                <div class="chart-container mt-2">
+                <div className="chart-container mt-2">
                     <canvas ref={chartContainer} />
                 </div>
             </div>
