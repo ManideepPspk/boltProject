@@ -55,11 +55,3 @@
 .nav-link{
     padding:4px;
 }
-.tableContent{
-    height:330px;
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
-}
-.tableContent::-webkit-scrollbar {
-    display: none;
-}
