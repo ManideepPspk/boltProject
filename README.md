@@ -12,7 +12,7 @@ After cloning the code, run `npm intall` to install the dependencies.
 # To run the application , run the command `npm start`.
 
 The website is hosted online using `Netlify`. 
-URL: https://euphonious-boba-75048d.netlify.app/
+URL: https://vehicleviewer.netlify.app/
 
 
 # Please add `Allow CORS: Access-Control-Allow-Origin` extension in your browser and turn it on after adding the extension as the api has CORS issue or do download the code and change the service file to local json.
