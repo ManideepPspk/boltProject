@@ -1,4 +1,4 @@
-import http from "../http-common";
+//import http from "../http-common";
 import listjson from "../json/List.json";
 import alljson from '../json/AllData.json';
 
